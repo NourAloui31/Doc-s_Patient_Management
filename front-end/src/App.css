@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+html, body {
+    height: 100%;
+    text-align: right;
+    
+}
+.form-content{
+  position: relative;
+  padding-right: 100px;
+}
+.form-holder .form-content {
+    text-align: right;
+    display : flex; 
+    -webkit-justify-content: center;
+    justify-content: right;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.form-items {
+    border: 3px solid #fff;
+    padding: 30px;
+    display: inline-block;
+    width: 30%;
+    min-width: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    padding-right : 100px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+    width: 70%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+
+.btn-primary{
+    background-color: #f7fafc;
+    outline: none;
+    border: 0px;
+     box-shadow: none;
+     width : 150px;
+     height: 35px;
+     position: relative;
+}
+
+
+
+.form-content textarea {
+
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: right;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    
+    transition: none;
+    margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+
+.nav {
+    
+  background-color: #ffffff70;
+  margin: 0px;
+  padding-left : 60px;
+  padding-right: 60px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Francois One";
+  margin-bottom: 80px;
+  
+}
+.head{
+  background-color: #7aaab397;
+  }
+
+#form {
+    width: 80%; 
+    font-size: 1.05em; 
+    border-collapse: collapse; 
+    border: 1px solid #ffffff; 
+    margin-left: 10%;
+    background-color: #ffffff;
+
+  }
+
+  #div1{
+  
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 40%;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  .main {
+    width: 300px;
+    margin: auto;
+    margin-left: 32%;
+    margin-top: 10px;
+    text-align:center;
+    border: 1px solid #77777769;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 1em #80808066;
+    border-radius: 4px;
+  }
+  
+  .patient {
+    font-size: 35px;
+    font-family: "Francois One";
+    margin-bottom: 10px;
+  }
+
+
+ #title{
+   text-align: center; 
+ }
